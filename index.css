@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, black, #b2b2b2); /* Black to Ash */
+  height: 100vh;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+    padding: 20px;
+}
+
+.myInput {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 30px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.welcome {
+  margin-top: 20px;
+}

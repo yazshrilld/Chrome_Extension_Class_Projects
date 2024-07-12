@@ -1,0 +1,11 @@
+{
+    "name": "Hello World Project",
+    "version": "1.0.0",
+    "description": "This extension captures name and welcomes the user",
+    "manifest_version": 3,
+    "author": "Yazid Musa",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "My Hello World"
+    }
+}
