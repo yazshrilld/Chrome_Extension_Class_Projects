@@ -1,6 +1,6 @@
 const uName = document.getElementById("uName");
 const messageBody = document.querySelector(".welcome");
-const butn = document.querySelector(".btn")
+const butn = document.querySelector(".btn");
 
 uName.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
@@ -9,5 +9,7 @@ uName.addEventListener("keydown", (event) => {
 });
 
 butn.addEventListener("click", () => {
-  console.log("Click event listener was added")
-})
+  setTimeout(() => {
+    console.log("Click event listener was added");
+  }, 3000);
+});
