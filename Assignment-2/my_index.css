@@ -1,0 +1,62 @@
+/* #add_me {
+    position: fixed;
+    bottom: 50px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #6a716b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+/* #add_me:hover {
+    background-color: #054e09;
+  } */
+
+/* #message_div {
+    position: fixed;
+    bottom: 100px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #a5e8a7;
+    color: rgb(49, 99, 49);
+    border: none;
+    border-radius: 5px;
+  } */
+
+/* .hidden {
+    display: none;
+  } */
+
+#add_me {
+  position: fixed;
+  bottom: 50px;
+  left: 10px;
+  padding: 10px 20px;
+  background-color: #9c98e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add_me:hover {
+  background-color: #3229dd;
+}
+
+.add_me {
+  position: fixed;
+  bottom: 100px;
+  left: 10px;
+  display: block;
+  padding: 20px 40px;
+  background-color: #9c98e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
